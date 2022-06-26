@@ -18,7 +18,7 @@ func main() {
 	if a > 0 && a <= 50 {
 	var i int
 	for i = 0; i < a; i++ {
-				fmt.Printf("%d ", fibonachi(i))
+		fmt.Printf("%d ", fibonachi(i))
 	} 
 	} else {fmt.Println("Введенное значение некорректно. Попробуйте еще раз.")}
 }
