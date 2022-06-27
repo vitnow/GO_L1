@@ -11,6 +11,7 @@ func main() {
 
 	fmt.Print("Введите площадь круга -  a: ")
 	fmt.Scanln(&a)
+	
 
 	d = math.Sqrt((4 * a) / math.Pi)
 
