@@ -7,8 +7,8 @@ import (
 
 func main() {
 	var a int
-	fmt.Print("Введите число от - a: ")
-	fmt.Scanln(&a)
+	fmt.Print("Введите число от 0 до 999 : ")
+	fmt.Scanln(&a) 
 	wordEnd(a)
 
 }

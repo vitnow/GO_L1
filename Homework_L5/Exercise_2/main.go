@@ -17,11 +17,12 @@ func main() {
 	var a int      					    
 	fmt.Print("Введите количество элементов последовательности от 0 до 50: ")
 	fmt.Scanln(&a)
-	if a > 0 && a <= 50 {
-	var i int
-	for i = 0; i < a; i++ {
-		fmt.Printf("%d ", addmap(i))
-	} 
+	addmap(a)
+	fmt.Println("олваолоава", addmap(a))
+	// if a > 0 && a <= 50 {
+	// var i int
+	// for i = 0; i < a; i++ {
+	// 	fmt.Printf("%d ", addmap(i))
+	// } 
 	// } else {fmt.Println("Введенное значение некорректно. Попробуйте еще раз.")}
-}
 }
